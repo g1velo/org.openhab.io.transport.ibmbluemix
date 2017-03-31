@@ -57,7 +57,7 @@ public class MqttService implements ManagedService {
             logger.debug("key : {} ", key);
             String[] subkeys = key.split("\\.");
             if (subkeys.length != 2) {
-                logger.debug("MQTT Broker property '{}' should have the format 'broker.propertykey'", key);
+                logger.debug("IBM Bluemix MQTT Broker property '{}' should have the format 'broker.propertykey'", key);
                 continue;
             }
 
