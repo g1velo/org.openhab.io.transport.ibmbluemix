@@ -54,7 +54,7 @@ public class MqttService implements ManagedService {
                 // ignore the only non-broker property..
                 continue;
             }
-            logger.debug("key : {} ", key);
+            logger.info("key : {} ", key);
             String[] subkeys = key.split("\\.");
             if (subkeys.length != 2) {
                 logger.debug("IBM Bluemix MQTT Broker property '{}' should have the format 'broker.propertykey'", key);
@@ -117,7 +117,7 @@ public class MqttService implements ManagedService {
      * Start service.
      */
     public void activate() {
-        logger.debug("Starting IBM BLuemix Service...");
+        logger.debug("Starting IBM SSSSSSSSSSSSSS BLuemix Service...");
     }
 
     /**

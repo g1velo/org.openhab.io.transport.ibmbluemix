@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: openHAB IBM Bluemix Transport Bundle
-Bundle-SymbolicName: org.openhab.io.transport.ibmbluemix
+Bundle-SymbolicName: org.openhab.io.transport.ibmbluemix;singleton:=true
 Bundle-Version: 1.10.0.qualifier
 Bundle-Vendor: SN
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8,
@@ -25,4 +25,3 @@ Bundle-DocURL: http://www.openhab.org
 Service-Component: OSGI-INF/ibmbluemix-*.xml
 Bundle-ClassPath: .,
  lib/mqtt-client-0.4.0.jar
-Bundle-ActivationPolicy: lazy
